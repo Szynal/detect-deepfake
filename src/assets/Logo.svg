@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.0" width="500.000000pt" height="500.000000pt" viewBox="0 0 500.000000 500.000000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="2514.172" cy="2484.099" r="2404.55" id="gradient-1">
+      <stop offset="0" style="stop-color: rgba(30, 47, 134, 1)"/>
+      <stop offset="1" style="stop-color: rgba(11, 18, 51, 1)"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-6">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-8">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-12">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-13">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-14">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-15">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-20">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-21">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-2">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-3">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-4">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-5">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-7">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-9">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-0">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-10">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-11">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+    <radialGradient r="0.8" id="gradient-16">
+      <stop offset="0" style="stop-color: rgb(30, 47, 134);"/>
+      <stop offset="1" style="stop-color: rgb(11, 18, 51);"/>
+    </radialGradient>
+  </defs>
+  <g transform="matrix(0.1, 0, 0, -0.1, 0, 500)" fill="#000000" stroke="none">
+    <path d="M1105 4883 c-279 -35 -486 -133 -671 -317 -173 -173 -283 -397 -313 -641 -15 -120 -15 -2732 -1 -2860 45 -387 261 -697 605 -865 135 -67 237 -96 387 -111 67 -6 584 -9 1478 -6 1499 3 1409 0 1585 59 312 104 579 371 683 683 59 177 56 84 60 1600 2 988 0 1419 -8 1489 -29 250 -137 476 -314 652 -153 152 -326 247 -547 300 -69 17 -174 18 -1494 20 -781 1 -1433 0 -1450 -3z m1405 -326 l0 -203 119 -12 c125 -12 351 -65 436 -102 147 -63 321 -197 421 -324 105 -132 170 -275 225 -496 33 -131 37 -389 10 -643 -12 -108 -21 -210 -21 -226 l0 -28 85 -5 c96 -6 137 -25 172 -77 46 -69 53 -147 28 -316 -57 -378 -139 -508 -340 -541 -39 -6 -41 -8 -77 -92 -109 -252 -364 -586 -533 -699 -128 -85 -262 -140 -417 -169 l-98 -18 0 -168 c0 -141 -2 -168 -15 -168 -12 0 -15 28 -17 167 l-3 167 -90 13 c-59 8 -93 9 -99 3 -15 -15 -33 -12 -38 8 -3 11 -26 24 -62 35 -32 10 -87 32 -123 48 -39 17 -74 27 -85 23 -14 -4 -21 0 -25 15 -3 11 -55 62 -115 112 -103 86 -183 170 -232 245 -11 18 -31 35 -42 38 -15 4 -23 16 -27 38 -3 18 -36 92 -74 163 -37 72 -75 149 -82 173 -16 48 -34 62 -83 62 -96 1 -209 101 -249 221 -7 19 -17 41 -24 49 -7 8 -15 31 -18 50 -3 19 -13 73 -22 120 -11 53 -18 136 -19 220 -1 125 1 139 24 185 36 72 70 87 188 83 l93 -4 -6 56 c-3 30 -18 150 -32 265 -39 320 -26 568 39 760 27 77 96 215 143 285 20 30 41 65 46 78 5 12 14 22 20 22 6 0 41 27 77 61 222 203 465 300 815 325 l97 7 0 198 c0 170 2 199 15 199 13 0 15 -29 15 -203z" style="fill: url(#gradient-1); fill-opacity: 0.92;"/>
+  </g>
+  <path style="fill: url(#gradient-11); fill-opacity: 0.92;" d="M 205.823 192.52 L 170.382 312.132 L 176.473 316.562" transform="matrix(0.99925, -0.038727, 0.038727, 0.99925, -9.716501, 7.475595)"/>
+  <path style="fill-opacity: 0.92; fill: url(#gradient-16);" d="M 320.739 316.425 L 288.166 196.813 L 293.764 192.383" transform="matrix(-1, 0, 0, -1, 608.904999, 508.807983)"/>
+  <path style="fill: url(#gradient-0); fill-opacity: 0.92;" d="M 201.938 191.016 L 245.689 141.536 L 206.626 194.141"/>
+  <path style="fill-opacity: 0.92; fill: url(#gradient-10);" d="M 246.73 145.442 L 290.481 194.922 L 251.418 142.317" transform="matrix(-1, 0, 0, -1, 537.210983, 337.238998)"/>
+  <ellipse style="fill: url(#gradient-9);" cx="203.501" cy="193.62" rx="14.493" ry="14.493"/>
+  <ellipse style="fill: rgb(181, 22, 62); paint-order: fill;" cx="288.733" cy="194.384" rx="14.493" ry="14.493"/>
+  <path style="fill-opacity: 0.92; fill: url(#gradient-7);" d="M 242.178 401.083 L 218.506 267.662 L 146.775 180.15" transform="matrix(-1, 0, 0, -1, 388.952988, 581.233002)"/>
+  <path style="fill-opacity: 0.92; fill: url(#gradient-4);" d="M 174.194 266.025 L 262.899 112.278 L 260.613 132.274" transform="matrix(-0.658952, 0.752185, -0.752185, -0.658952, 504.835065, 149.405899)"/>
+  <path style="fill-opacity: 0.92; fill: url(#gradient-5);" d="M 228.653 113.84 L 317.358 267.587 L 315.072 247.591" transform="matrix(0.667473, 0.744634, -0.744634, 0.667473, 232.793434, -139.871787)"/>
+  <path stroke="rgb(255,0,0)" stroke-width="0" opacity="0.9490196078431372" d="M 161.463 389.264 C 162.126 390.137 163.362 392.734 163.683 393.82 C 163.882 394.492 163.928 394.881 163.8 395.339 C 163.673 395.796 163.331 396.321 162.924 396.566 C 162.502 396.82 161.784 396.925 161.288 396.8 C 160.79 396.674 160.397 396.38 159.944 395.807 C 159.254 394.931 158.157 392.585 157.841 391.484 C 157.723 391.074 157.655 390.73 157.643 390.42 C 157.273 390.245 156.919 389.925 156.599 389.642 C 156.249 389.459 155.916 389.21 155.736 388.949 C 155.643 388.813 155.571 388.647 155.519 388.468 C 155.467 388.41 155.415 388.355 155.363 388.305 C 155.088 388.037 155.006 388.087 154.604 387.662 C 154.221 387.257 153.411 386.366 152.531 385.35 C 152.529 385.35 152.527 385.349 152.525 385.349 C 151.985 385.24 151.704 385.028 151.298 384.473 C 151.052 384.136 150.751 383.529 150.457 382.843 C 149.963 382.205 149.56 381.637 149.346 381.236 C 148.884 380.37 148.809 379.793 148.879 379.25 C 148.92 378.934 149.081 378.647 149.27 378.412 C 149.282 378.37 149.296 378.326 149.312 378.281 C 149.455 377.872 149.932 377.389 150.188 377.171 C 150.36 377.024 150.436 376.984 150.656 376.937 C 150.982 376.868 151.628 376.783 152.058 376.937 C 152.508 377.099 152.851 377.427 153.285 377.93 C 153.897 378.64 154.843 380.054 155.271 381.085 C 155.315 381.191 155.357 381.299 155.398 381.409 C 157.221 383.442 159.349 385.944 159.979 387.078 C 160.299 387.653 160.441 388.068 160.478 388.434 C 160.826 388.578 161.107 388.794 161.463 389.264 Z M 199.704 426.082 C 200.179 426.233 200.744 426.543 201.181 426.826 C 202.268 427.262 203.142 427.644 203.268 427.77 C 203.327 427.829 203.303 427.871 203.231 427.883 C 203.114 427.902 202.585 427.715 201.944 427.484 C 201.944 427.506 201.936 427.526 201.918 427.545 C 201.814 427.651 201.214 427.68 200.754 427.658 C 200.17 427.63 199.324 427.496 198.653 427.283 C 198.577 427.259 198.497 427.232 198.416 427.203 C 198.34 427.218 198.248 427.221 198.128 427.208 C 197.429 427.129 194.868 426.413 194.414 425.857 C 194.139 425.52 194.193 424.896 194.451 424.731 C 194.808 424.504 195.862 424.925 196.927 425.257 C 197.363 425.392 198.018 425.621 198.743 425.888 C 199.1 425.935 199.44 425.998 199.704 426.082 Z M 220.04 435.837 C 220.183 435.801 220.62 435.772 221.185 435.756 C 221.385 435.492 221.648 435.262 221.811 435.123 C 221.983 434.976 222.029 434.939 222.278 434.889 C 222.722 434.8 223.453 434.688 224.498 434.889 C 225.957 435.17 229.052 436.536 231.239 437.292 C 231.798 437.434 232.286 437.567 232.533 437.638 C 232.74 437.697 232.748 437.712 232.864 437.757 C 234.054 437.978 234.884 437.769 235.715 438.044 C 236.517 438.309 237.395 438.742 237.759 439.271 C 238.074 439.727 238.109 440.423 237.993 440.906 C 237.881 441.373 237.55 441.884 237.117 442.133 C 236.631 442.412 236.02 442.429 235.13 442.367 C 234.757 442.341 234.313 442.275 233.824 442.181 C 233.733 442.266 233.635 442.341 233.529 442.401 C 233.023 442.687 232.361 442.68 231.426 442.635 C 230.013 442.566 226.933 442.082 225.584 441.583 C 224.663 441.243 224.029 440.889 223.656 440.356 C 223.445 440.055 223.332 439.641 223.294 439.251 C 222.766 439.064 222.33 438.891 222.044 438.745 C 221.479 438.456 221.357 438.349 221.168 437.985 C 220.962 437.588 220.827 436.848 220.909 436.351 C 220.376 436.167 219.981 436.018 219.927 435.95 C 219.879 435.89 219.925 435.866 220.04 435.837 Z" style="fill-opacity: 1; fill-rule: nonzero; stroke: none; stroke-dasharray: none; stroke-dashoffset: 0px; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 1px; paint-order: normal; vector-effect: none; opacity: 1; mix-blend-mode: normal; isolation: auto; fill: rgb(34, 43, 85);"/>
+  <path style="fill-opacity: 0.92; fill: url(#gradient-3);" d="M 249.112 267.91 L 320.165 314.441 L 320.76 308.389" transform="matrix(-1, 0, 0, -1, 569.872009, 582.351013)"/>
+  <path style="fill: url(#gradient-13); fill-opacity: 0.92;" d="M 322.881 312.341 L 343.693 179.032"/>
+  <path style="fill: url(#gradient-14); fill-opacity: 0.92;" d="M 344.133 180.455 L 320.461 313.876 L 248.73 401.388"/>
+  <path style="fill: url(#gradient-15); fill-opacity: 0.92;" d="M 326.2 131.678 L 435.949 152.48"/>
+  <path style="fill: url(#gradient-20); fill-opacity: 0.92;" d="M 164.06 310.74 L 248.718 267.171 L 249.427 272.839"/>
+  <path style="fill: url(#gradient-21); fill-opacity: 0.92;" d="M 323.812 306.843 L 324.52 311.094"/>
+  <ellipse style="fill: rgb(176, 225, 15); fill-opacity: 0.94;" cx="169.646" cy="310.246" rx="14.493" ry="14.493"/>
+  <ellipse style="fill: rgb(176, 225, 15);" cx="190.968" cy="109.973" rx="14.493" ry="14.493"/>
+  <ellipse style="fill: rgb(176, 225, 15);" cx="247.167" cy="270.662" rx="14.493" ry="14.493"/>
+  <ellipse style="fill: url(#gradient-2);" cx="248.963" cy="144.7" rx="14.493" ry="14.493"/>
+  <ellipse style="fill: url(#gradient-12);" cx="342.037" cy="179.894" rx="14.493" ry="14.493"/>
+  <ellipse style="fill-opacity: 0.92; fill: url(#gradient-8);" cx="319.773" cy="312.123" rx="14.493" ry="14.493"/>
+  <ellipse style="fill-opacity: 0.92; fill: url(#gradient-6);" cx="297.511" cy="108.383" rx="14.493" ry="14.493"/>
+</svg>
