@@ -142,7 +142,7 @@ class App extends Component {
                   >
                     <a
                       className="nav-link Ripple-parent"
-                      href="https://mdbootstrap.com/products/react-ui-kit/"
+                      href="https://github.com/Szynal/detect-deepfake"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -150,7 +150,7 @@ class App extends Component {
                         <MDBIcon far icon="gem" />
                       </strong>
                     </a>
-                    <span>PRO</span>
+                    <span>Github</span>
                   </MDBTooltip>
                 </MDBNavItem>
               </MDBNavbarNav>
