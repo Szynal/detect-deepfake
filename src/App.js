@@ -23,12 +23,12 @@ class App extends Component {
     collapseID: ""
   };
 
-  toggleCollapse = collapseID => () =>
-    this.setState(prevState => ({
+  toggleCollapse = (collapseID) => () =>
+    this.setState((prevState) => ({
       collapseID: prevState.collapseID !== collapseID ? collapseID : ""
     }));
 
-  closeCollapse = collapseID => () => {
+  closeCollapse = (collapseID) => () => {
     window.scrollTo(0, 0);
     this.state.collapseID === collapseID && this.setState({ collapseID: "" });
   };
@@ -50,7 +50,7 @@ class App extends Component {
           <MDBNavbar color="indigo" dark expand="md" fixed="top" scrolling>
             <MDBNavbarBrand href="/" className="py-0 font-weight-bold">
               <Logo style={{ height: "2.5rem", width: "2.5rem" }} />
-              <strong className="align-middle">MDB React</strong>
+              <strong className="align-middle">Deepfake Detection</strong>
             </MDBNavbarBrand>
             <MDBNavbarToggler
               onClick={this.toggleCollapse("mainNavbarCollapse")}
