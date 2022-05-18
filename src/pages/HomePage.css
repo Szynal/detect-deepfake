@@ -1,24 +1,24 @@
 body {
-	background:#fff;
+  background: #fff;
 }
 
 a.border.nav-link.border-light.rounded.mr-1 {
-  color: #3F729B;
+  color: #3f729b;
 }
 
 a.border.nav-link.border-light.rounded.mr-1:hover {
-  color: #1C2331;
+  color: #1c2331;
 }
 
-.btn.btn-sm.indigo:hover{
+.btn.btn-sm.indigo:hover {
   color: #fff;
 }
 
-.nav-link.active{
+.nav-link.active {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-#categories > .col-md-4.mb-5{
+#categories > .col-md-4.mb-5 {
   margin-bottom: 8rem !important;
 }
 .sectionPage {
@@ -28,12 +28,12 @@ a.border.nav-link.border-light.rounded.mr-1:hover {
 }
 
 .sectionPage::after {
-  content: '';
-  height: 100%;
+  content: "";
+  height: 180%;
   width: 100%;
   position: absolute;
-  background: url('https://mdbootstrap.com/wp-content/uploads/2016/12/big-bundle1.jpg');
+  background: url("https://fr.planisware.com/sites/default/files/contenus/6512/ai_getty-1179477351-scaled-e1611778221405.jpg");
   background-position: center center;
   background-size: cover;
-  filter: opacity(.1);
+  filter: opacity(1);
 }
