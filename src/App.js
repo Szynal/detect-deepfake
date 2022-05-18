@@ -147,7 +147,7 @@ class App extends Component {
                       rel="noopener noreferrer"
                     >
                       <strong>
-                        <MDBIcon far icon="gem" />
+                        <MDBIcon far icon="github" />
                       </strong>
                     </a>
                     <span>Github</span>
