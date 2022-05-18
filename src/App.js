@@ -47,7 +47,7 @@ class App extends Component {
     return (
       <Router>
         <div className="flyout">
-          <MDBNavbar color="indigo" dark expand="md" fixed="top" scrolling>
+          <MDBNavbar color="blue" dark expand="md" fixed="top" scrolling>
             <MDBNavbarBrand href="/" className="py-0 font-weight-bold">
               <Logo style={{ height: "2.5rem", width: "2.5rem" }} />
               <strong className="align-middle"> Deepfake Detection</strong>
@@ -160,7 +160,7 @@ class App extends Component {
           <main style={{ marginTop: "4rem" }}>
             <Routes />
           </main>
-          <MDBFooter color="indigo">
+          <MDBFooter color="blue">
             <p className="footer-copyright mb-0 py-3 text-center">
               &copy; {new Date().getFullYear()} Copyright:
               <a href="https://github.com/Szynal/detect-deepfake">
