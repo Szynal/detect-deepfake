@@ -35,6 +35,23 @@ class HomePage extends React.Component {
                       Under development
                     </strong>
                   </h2>
+
+                  <div>
+                    <meta charSet="UTF-8" />
+                    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+                    <meta
+                      name="viewport"
+                      content="width=device-width, initial-scale=1.0"
+                    />
+                    <link rel="stylesheet" href="index.css" />
+                    <title>Document</title>
+                    <form id="videoForm">
+                      <input id="videoInput" type="file" accept="video/*" />
+                      <button type="submit">Upload</button>
+                    </form>
+                    <progress max="”100”" value="”0”" />
+                  </div>
+
                   <MDBRow />
                   <p>React Bootstrap with Material Design</p>
                   <p className="pb-4">
