@@ -3,10 +3,10 @@ import AWS from "aws-sdk";
 
 require("dotenv").config();
 
-const bucket = `${process.env.REACT_APP_S3_BUCKET}`;
-const region = `${process.env.REACT_APP_S3_REGION}`;
-const accessKeyId = `${process.env.REACT_APP_API_KEY_YT}`;
-const secretAccessKey = `${process.env.REACT_APP_S3_SECRET_ACCESS_KEY}`;
+const bucket = `scandeepfake`;
+const region = `eu-central-1`;
+const accessKeyId = `AKIASDLK7ISXTLTRTZVY`;
+const secretAccessKey = `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`;
 
 const myBucket = new AWS.S3({
   region,
