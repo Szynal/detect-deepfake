@@ -56,24 +56,6 @@ class HomePage extends React.Component {
                         Official Documentation
                       </span>
                     </a>
-                    <a
-                      className="border nav-link border-light rounded mx-2 mb-2"
-                      href="https://mdbootstrap.com/products/react-ui-kit/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <MDBIcon far icon="gem" className="mr-2" />
-                      <span className="font-weight-bold">PRO</span>
-                    </a>
-                    <a
-                      className="border nav-link border-light rounded mx-2 mb-2"
-                      href="https://mdbootstrap.com/docs/react/getting-started/download/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <MDBIcon icon="download" className="mr-2" />
-                      <span className="font-weight-bold">FREE</span>
-                    </a>
                   </MDBRow>
                 </MDBCardBody>
               </MDBCol>

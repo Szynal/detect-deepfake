@@ -1,14 +1,18 @@
 import React, { useState } from "react";
 import AWS from "aws-sdk";
 
-AWS.config.update({
-  accessKeyId: process.env.S3_ACCESS_KEY_ID,
-  secretAccessKey: process.env.S3_SECRET_ACCESS_KEY
-});
+require("dotenv").config();
+
+const bucket = `${process.env.REACT_APP_S3_BUCKET}`;
+const region = `${process.env.REACT_APP_S3_REGION}`;
+const accessKeyId = `${process.env.REACT_APP_API_KEY_YT}`;
+const secretAccessKey = `${process.env.REACT_APP_S3_SECRET_ACCESS_KEY}`;
 
 const myBucket = new AWS.S3({
-  params: { Bucket: process.env.S3_BUCKET },
-  region: process.env.S3_REGION
+  region,
+  accessKeyId,
+  secretAccessKey,
+  signatureVersion: "v4"
 });
 
 const UploadImageToS3WithNativeSdk = () => {
@@ -23,7 +27,7 @@ const UploadImageToS3WithNativeSdk = () => {
     const params = {
       ACL: "public-read",
       Body: file,
-      Bucket: process.env.S3_BUCKET,
+      Bucket: bucket,
       Key: file.name
     };
 
