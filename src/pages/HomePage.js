@@ -15,6 +15,7 @@ import {
   MDBNavLink
 } from "mdbreact";
 import "./HomePage.css";
+import UploadImageToS3WithNativeSdk from "./UploadVideo";
 
 class HomePage extends React.Component {
   scrollToTop = () => window.scrollTo(0, 0);
@@ -36,28 +37,13 @@ class HomePage extends React.Component {
                     </strong>
                   </h2>
 
-                  <div>
-                    <meta charSet="UTF-8" />
-                    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-                    <meta
-                      name="viewport"
-                      content="width=device-width, initial-scale=1.0"
-                    />
-                    <link rel="stylesheet" href="index.css" />
-                    <title>Document</title>
-                    <form id="videoForm">
-                      <input id="videoInput" type="file" accept="video/*" />
-                      <button type="submit">Upload</button>
-                    </form>
-                    <progress max="”100”" value="”0”" />
-                  </div>
+                  <UploadImageToS3WithNativeSdk />
 
+                  <h2 className="h2-responsive mb-4">
+                    <strong className="font-weight-bold"></strong>
+                  </h2>
                   <MDBRow />
-                  <p>React Bootstrap with Material Design</p>
-                  <p className="pb-4">
-                    This application shows the actual use of MDB React
-                    components in the application.
-                  </p>
+
                   <MDBRow className="d-flex flex-row justify-content-center row">
                     <a
                       className="border nav-link border-light rounded mr-1 mx-2 mb-2"

@@ -1,29 +1,49 @@
-const imageForm = document.querySelector("#videoForm");
-const imageInput = document.querySelector("#videoInput");
+import React, { useState } from "react";
+import AWS from "aws-sdk";
 
-imageForm.addEventListener("submit", async (event) => {
-  event.preventDefault();
-  const file = imageInput.files[0];
-
-  // get secure url from our server
-  const { url } = await fetch("/s3Url").then((res) => res.json());
-  console.log(url);
-
-  // post the image direclty to the s3 bucket
-  await fetch(url, {
-    method: "PUT",
-    headers: {
-      "Content-Type": "multipart/form-data"
-    },
-    body: file
-  });
-
-  const imageUrl = url.split("?")[0];
-  console.log(imageUrl);
-
-  // post requst to my server to store any extra data
-
-  // const img = document.createElement("img")
-  // img.src = imageUrl
-  // document.body.appendChild(img)
+AWS.config.update({
+  accessKeyId: process.env.S3_ACCESS_KEY_ID,
+  secretAccessKey: process.env.S3_SECRET_ACCESS_KEY
 });
+
+const myBucket = new AWS.S3({
+  params: { Bucket: process.env.S3_BUCKET },
+  region: process.env.S3_REGION
+});
+
+const UploadImageToS3WithNativeSdk = () => {
+  const [progress, setProgress] = useState(0);
+  const [selectedFile, setSelectedFile] = useState(null);
+
+  const handleFileInput = (e) => {
+    setSelectedFile(e.target.files[0]);
+  };
+
+  const uploadFile = (file) => {
+    const params = {
+      ACL: "public-read",
+      Body: file,
+      Bucket: process.env.S3_BUCKET,
+      Key: file.name
+    };
+
+    myBucket
+      .putObject(params)
+      .on("httpUploadProgress", (evt) => {
+        setProgress(Math.round((evt.loaded / evt.total) * 100));
+      })
+      .send((err) => {
+        if (err) console.log(err);
+      });
+  };
+
+  return (
+    <div>
+      <div>Native SDK File Upload Progress is {progress}%</div>
+      <input type="file" onChange={handleFileInput} />
+      <button onClick={() => uploadFile(selectedFile)}> Upload to S3</button>
+    </div>
+  );
+};
+
+export default UploadImageToS3WithNativeSdk;

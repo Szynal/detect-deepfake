@@ -50,17 +50,16 @@ import SearchPage from "./pages/SearchPage";
 import ValidationPage from "./pages/ValidationPage";
 import NavbarPage from "./pages/NavbarPage";
 import IframePage from "./pages/IframePage";
-import EdgeHeaderPage from "./pages/EdgeHeaderPage"
-import SpinnerPage from './pages/SpinnerPage';
-import MasonryPage from './pages/MasonryPage';
-import ScrollBarPage from './pages/ScrollBarPage';
-import NavsPage from './pages/NavsPage';
-import TabsPage from './pages/TabsPage';
-import PillsPage from './pages/PillsPage';
-import NotificationPage from './pages/NotificationPage';
-import InputGroupPage from './pages/InputGroupPage'
-import TreeviewPage from './pages/TreeviewPage'
-
+import EdgeHeaderPage from "./pages/EdgeHeaderPage";
+import SpinnerPage from "./pages/SpinnerPage";
+import MasonryPage from "./pages/MasonryPage";
+import ScrollBarPage from "./pages/ScrollBarPage";
+import NavsPage from "./pages/NavsPage";
+import TabsPage from "./pages/TabsPage";
+import PillsPage from "./pages/PillsPage";
+import NotificationPage from "./pages/NotificationPage";
+import InputGroupPage from "./pages/InputGroupPage";
+import TreeviewPage from "./pages/TreeviewPage";
 
 class Routes extends React.Component {
   render() {
@@ -121,12 +120,15 @@ class Routes extends React.Component {
         <Route path="/navigation/navs" component={NavsPage} />
         <Route path="/navigation/footer" component={FooterPage} />
         <Route path="/tables/table" component={TablePage} />
-        <Route path="/tables/table-responsive" component={TableResponsivePage} />
+        <Route
+          path="/tables/table-responsive"
+          component={TableResponsivePage}
+        />
         <Route path="/tables/table-scroll" component={TableScrollPage} />
         <Route path="/tables/table-styles" component={TableStylesPage} />
         <Route path="/tables/datatable-api" component={DatatableApiPage} />
         <Route path="/tables/datatable" component={DatatablePage} />
-        
+
         <Route
           render={function () {
             return <h1>Not Found</h1>;
