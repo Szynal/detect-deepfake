@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import AWS from "aws-sdk";
+import ProgressBar from "react-bootstrap/ProgressBar";
+import { MDBRow, MDBIcon, MDBCardBody } from "mdbreact";
 
 require("dotenv").config();
 
@@ -43,9 +45,20 @@ const UploadImageToS3WithNativeSdk = () => {
 
   return (
     <div>
-      <div>Native SDK File Upload Progress is {progress}%</div>
       <input type="file" onChange={handleFileInput} />
+
+      <MDBRow />
+      <MDBCardBody className="text-center"></MDBCardBody>
+      <ProgressBar animated now={progress} />
+      <MDBCardBody className="text-center"></MDBCardBody>
+      <MDBRow />
+
       <button onClick={() => uploadFile(selectedFile)}> Upload to S3</button>
+
+      <MDBCardBody className="text-center"></MDBCardBody>
+      <h2 className="h2-responsive mb-4">
+        <strong className="font-weight-bold">Under development</strong>
+      </h2>
     </div>
   );
 };

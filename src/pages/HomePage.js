@@ -33,7 +33,7 @@ class HomePage extends React.Component {
                 <MDBCardBody className="text-center">
                   <h2 className="h2-responsive mb-4">
                     <strong className="font-weight-bold">
-                      Under development
+                      Upload your video to deepfake test.{" "}
                     </strong>
                   </h2>
 
